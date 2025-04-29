@@ -1,0 +1,31 @@
+Sprint Number: Sprint 4
+
+Sprint Goals
+
+    Build ISO image with xorriso.
+
+    Resolve bootloader and kernel errors.
+
+    Reach Switch Root in VM.
+
+Accomplishments
+
+    Ian ran xorriso -as mkisofs and built bootable ISO from /samos-workdir/iso.
+
+    Bennett tracked down and copied vmlinuz-linux-zen, initramfs, intel-ucode.img.
+
+    Added missing ISOLINUX files like ldlinux.c32, isolinux.cfg.
+
+    VM boot reached "Failed to Switch Root", indicating initramfs is loading.
+
+Challenges
+
+    ISO wouldn't boot without proper kernel/initramfs in place.
+
+    Required manual copying from existing Arch install and fixing paths.
+
+Next Steps
+
+    Finalize isolinux.cfg.
+
+    Begin troubleshooting the switch_root service.

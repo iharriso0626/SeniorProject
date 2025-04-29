@@ -1,0 +1,31 @@
+Sprint Number: Sprint 1
+
+Sprint Goals
+
+    Set up the project structure.
+
+    Acquire and configure Linux kernel source.
+
+    Define scope of packages and architecture.
+
+Accomplishments
+
+    Ian cloned the official Linux kernel from GitHub and reviewed architecture setup.
+
+    Bennett created the project folder structure and outlined the minimal base system.
+
+    Ian configured the kernel using make menuconfig for x86_64.
+
+    Bennett documented system tools and planned mkinitcpio integration.
+
+Challenges
+
+    Early uncertainty around which kernel options to include.
+
+    Lack of clarity on ISO directory structure required for xorriso.
+
+Next Steps
+
+    Compile the kernel and generate initramfs.
+
+    Begin testing boot structure.

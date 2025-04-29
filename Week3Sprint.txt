@@ -1,0 +1,31 @@
+Sprint Number: Sprint 3
+
+Sprint Goals
+
+    Repair broken chroot access.
+
+    Rebuild and validate initramfs.
+
+    Setup GRUB bootloader correctly.
+
+Accomplishments
+
+    Ian manually fixed missing /lib64/ld-linux-x86-64.so.2 to allow chroot access.
+
+    Bennett ensured correct fstab and /boot layout were in place.
+
+    mkinitcpio successfully rebuilt images inside chroot.
+
+    GRUB config rebuilt with correct kernel/initramfs entries.
+
+Challenges
+
+    Initramfs still failed to switch root on boot.
+
+    Required multiple rebind mounts to fix broken chroot.
+
+Next Steps
+
+    Clean up the ISO file system layout.
+
+    Prepare boot structure for xorriso build.

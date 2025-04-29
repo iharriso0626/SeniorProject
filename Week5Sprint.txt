@@ -1,0 +1,30 @@
+Sprint Number: Sprint 5
+
+Sprint Goals
+
+    Resolve initrd-switch-root service failure.
+
+    Verify working boot in VM from ISO.
+
+Accomplishments
+
+    Bennett confirmed working boot up to Switch Root.
+
+    Ian edited isolinux.cfg to enable debug and nomodeset for diagnosis.
+
+    Found and fixed issues related to initrd-switch-root.service.
+
+    Clean boot to shell achieved.
+
+Challenges
+
+    VM lockout made debugging harder.
+
+    Needed correct combination of initrd, kernel, and fstab.
+
+Next Steps
+
+    Polish ISO layout and filesystem.
+
+    Begin branding and release prep for SamOS ISO.
+

@@ -1,0 +1,31 @@
+Sprint Number: Sprint 2
+
+Sprint Goals
+
+    Compile Linux kernel.
+
+    Generate initramfs with mkinitcpio.
+
+    Prepare for early boot testing.
+
+Accomplishments
+
+    Ian compiled the kernel and placed the image in /boot.
+
+    Bennett configured /etc/mkinitcpio.conf and wrote a proper linux.preset file.
+
+    mkinitcpio -P was used to successfully generate initramfs-linux-zen.img.
+
+    Encountered initial Switch Root error in early VM testing.
+
+Challenges
+
+    Required chroot environment lacked critical libraries and binaries.
+
+    Initial initramfs missing essential modules/hooks.
+
+Next Steps
+
+    Enter and repair chroot environment using Fedora Live USB.
+
+    Fix /lib64, /etc/fstab, and kernel linkage for bash access.
